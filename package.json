@@ -1,0 +1,30 @@
+{
+  "name": "build-own-webpack",
+  "version": "1.0.0",
+  "description": "Simple implementation of webpack ES6 to ES5",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "node ./scripts/convert",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunnyBob/build-own-webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "Handwriting"
+  ],
+  "author": "liuxuegang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunnyBob/build-own-webpack/issues"
+  },
+  "homepage": "https://github.com/sunnyBob/build-own-webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/parser": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/traverse": "^7.18.13"
+  }
+}
